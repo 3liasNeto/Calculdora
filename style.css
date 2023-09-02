@@ -38,13 +38,16 @@ main {
     font-size: 6rem;
     width: 100%;
     margin-bottom: 2rem;
+
 }
 
 
 .dv_span__monitor{
     width: 100%;
     margin: auto;
-    color: #2f2f2f;
+    color: #000;
+    overflow-x: hidden; /* Adicione esta linha */
+    text-overflow: clip;
 }
 
 .dv_buttons{

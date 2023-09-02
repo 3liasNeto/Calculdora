@@ -81,4 +81,7 @@ function performCalculation() {
 
 function updateVisor() {
     visor.textContent = currentInput;
+    if (visor.scrollWidth > visor.clientWidth) {
+        visor.scrollLeft = visor.scrollWidth - visor.clientWidth;
+    }
 }
