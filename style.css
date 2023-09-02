@@ -1,0 +1,74 @@
+@import url('./font/font.css');
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vw;
+    font-family: Calculator;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-top: 3rem;
+    width: 12rem;
+}
+
+.dv_monitor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: .7rem;
+    height: 12rem;
+    background-color: #686765;
+    border: solid #444444 3px;
+    box-shadow: inset 0px 3px 2px #000;
+    border-radius: 6px;
+    font-size: 6rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+
+.dv_span__monitor{
+    width: 100%;
+    margin: auto;
+    color: #2f2f2f;
+}
+
+.dv_buttons{
+    
+}
+
+button{
+    border: none;
+    background: #2d2d2d;
+    color: #937c00;
+    border-radius: 2px 2px 6px 6px;
+    padding: .1rem 0.6rem;
+    box-shadow:inset 1px 1px 1px #4D4D4D, 0px 2px 1px #000;
+    margin: 0.2rem .2rem;
+    font-weight: 400;
+    font-size: 1.85rem;
+}
+
+button:hover{
+    transform: translateY(0px);
+}
+
+button:active{
+    background-color: #1e1e1e;
+    animation: scale-down-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    transform: translateY(1px);
+}
